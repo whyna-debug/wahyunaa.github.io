@@ -8,6 +8,7 @@
 @import url("https://fonts.googleapis.com/css2?family=Noto+Sans:wght@700&display=swap");
 @import url("https://fonts.googleapis.com/css2?family=Gluten:wght@200&display=swap");
 @import url('https://fonts.googleapis.com/css2?family=Balsamiq+Sans:wght@700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Lato:wght@700&display=swap');
 /*Akhir Fonts*/
 .navx {
   font-size: 17px;
@@ -28,11 +29,11 @@ body {
 }
 .dork-o {
   color: rgb(37, 37, 37);
-  font-family: Balsamiq Sans;
+  font-family: Lato;
 }
 .title {
   color: rgb(48, 48, 48);
-  font-family: Balsamiq Sans;
+  font-family: Lato;
 }
 .jv {
   margin-top: 5px;
