@@ -1,0 +1,422 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <meta name="author" content="wahyuna" />
+    <link rel="icon" href="img/favicon.ico" type="image/png" />
+    <meta name="description" content="Kumpulan Dork SQL Injection" />
+    <!-- Bootstrap CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous" />
+    <!--My css-->
+    <link rel="stylesheet" href="css/dork.css" />
+    <title>Dork SQL Injection</title>
+  </head>
+  <body id="home">
+    <nav class="navbar navbar-expand-lg fixed-top navbar-dark shadow-sm" style="background-color: rgb(89, 0, 255)" data-aos="fade-down" data-aos-duration="600">
+      <div class="container">
+        <a class="navbar-brand" href="#home" style="font-family: Patua One">WAHYUNA</a>
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNav">
+          <ul class="navbar-nav ms-auto">
+            <li class="nav-item">
+              <a class="c active navx" aria-current="page" href="#home">Home</a>
+            </li>
+            <li class="nav-item">
+              <a class="c active navx" aria-current="page" href="#dork">Dork</a>
+            </li>
+            <li class="nav-item">
+              <a class="c active navx" aria-current="page" href="https://wahyunaa.github.io">About Me</a>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+    <div class="jumbotron gv">
+      <div class="row fs-5 justify-content-center">
+        <div class="col-md-3">
+          <img src="img/hacking.jpg" height="230px" alt="mohon refresh halaman ini">
+        </div>
+        <div class="col-md-7 lz">
+          <h1 class="title jv xx">Apa Itu Dork?</h1>
+            <div class="paragraph">
+              <p>
+                Dork adalah sebuah tindakan memasukkan kata kunci pada mesin pencari Google untuk mencari celah keamanan pada suatu website dengan tujuan peretasan. Teknik ini biasa disebut Dorking atau mencari informasi secara detail. Dork
+                sering digunakan para hacker untuk mencari website yang rentan terhadap keamanan (Vulnerability) yang nantinya akan dijadikan target peretasan.
+              </p>
+          </div>
+        </div>
+      </div>
+    </div>
+    <section id="dork">
+      <div class="gv">
+        <h1 class="dork-o jv zy">Dork SQL Injection</h1>
+        <div class="dork"><pre><code><p class="dork-list">
+opinions.php?id=
+spr.php?id=
+pages.php?id=
+chappies.php?id=
+prod_detail.php?id=
+viewphoto.php?id=
+view.php?id=
+website.php?id=
+hosting_info.php?id=
+gery.php?id=
+publications.php?id=
+Productinfo.php?id=
+releases.php?id=
+ray.php?id=
+produit.php?id=
+pop.php?id=
+shopping.php?id=
+productdetail.php?id=
+post.php?id=
+section.php?id=
+theme.php?id=
+page.php?id=
+shredder-categories.php?id=
+product_ranges_view.php?ID=
+shop_category.php?id=
+channel_id=
+newsid=
+news_display.php?getid=
+ages.php?id=
+clanek.php4?id=
+review.php?id=
+view.php?where=
+blank.php?subject=
+path.php?play=
+base.php?l=
+index2.php?rub=
+general.php?opcion=
+layout.php?xlink=
+padrao.php?name=
+pagina.php?nivel=
+default.php?oldal=
+template.php?k=
+main.php?chapter=
+layout.php?chapter=
+layout.php?incl=
+include.php?url=
+base.php?sivu=
+index.php?link=
+sub*.php?cont=
+info.php?oldal=
+general.php?rub=
+default.php?str=
+head.php?ev=
+sub*.php?path=
+view.php?page=
+main.php?j=
+index2.php?basepath=
+gery.php?qry=
+main.php?url=
+default.php?incl=
+show.php?redirect=
+index1.php?pre=
+general.php?base_dir=
+start.php?in=
+show.php?abre=
+index1.php?home=
+home.php?ev=
+index2.php?ki=
+base.php?pag=
+default.php?ir=
+general.php?qry=
+index2.php?home=
+press.php?nivel=
+enter.php?pr=
+blank.php?loader=
+start.php?cmd=
+padrao.php?d=
+sitio.php?recipe=
+principal.php?read=
+standard.php?showpage=
+main.php?pg=
+page.php?panel=
+press.php?addr=
+template.php?s=
+main.php?tipo=
+*inc*.php?ev=
+padrao.php?page=
+show.php?thispage=
+home.php?secao=
+main.php?start=
+enter.php?mid=
+press.php?id=
+main.php?inc=
+index3.php?cmd=
+index.php?pname=
+press.php?subject=
+include.php?sec=
+index3.php?xlink=
+general.php?texto=
+index3.php?go=
+index.php?cmd=
+index3.php?disp=
+index3.php?left=
+book.php?ID=
+print.php?id=
+detail.php?id=
+book.php?id=
+content.php?PID=
+more_detail.php?id=
+content.php?id=
+view_items.php?id=
+view_author.php?id=
+main.php?id=
+english/fonction/print.php?id=
+magazines/adult_magazine_single_page.php?magid=
+product_details.php?prodid=
+magazines/adult_magazine_full_year.php?magid=
+products/card.php?prodID=
+catalog/product.php?cat_id=
+e_board/modifyform.html?code=
+community/calendar-event-fr.php?id=
+products.php?p=
+news.php?id=
+StoreRedirect.php?ID=
+subcategories.php?id=
+tek9.php?
+template.php?Action=Item&pid=
+topic.php?ID=
+tuangou.php?bookid=
+type.php?iType=
+updatebasket.php?bookid=
+updates.php?ID=
+view.php?cid=
+view_cart.php?title=
+view_detail.php?ID=
+viewcart.php?CartId=
+viewCart.php?userID=
+viewCat_h.php?idCategory=
+viewevent.php?EventID=
+viewitem.php?recor=
+viewPrd.php?idcategory=
+ViewProduct.php?misc=
+voteList.php?item_ID=
+whatsnew.php?idCategory=
+WsAncillary.php?ID=
+WsPages.php?ID=noticiasDetalle.php?xid=
+sitio/item.php?idcd=
+index.php?site=
+de/content.php?page_id=
+gallerysort.php?iid=
+docDetail.aspx?chnum=
+index.php?section=
+index.php?page=
+index.php?page=
+en/publications.php?id=
+events/detail.php?ID=
+forum/profile.php?id=
+media/pr.php?id=
+content.php?ID=
+cloudbank/detail.php?ID=
+pages.php?id=
+news.php?id=
+beitrag_D.php?id=
+content/index.php?id=
+index.php?i=
+?action=
+index.php?page=
+beitrag_F.php?id=
+index.php?pageid=
+page.php?modul=
+detail.php?id=
+index.php?w=
+index.php?modus=
+news.php?id=
+news.php?id=
+aktuelles/meldungen-detail.php?id=
+item.php?id=
+obio/detail.php?id=
+page/de/produkte/produkte.php?prodID=
+packages_display.php?ref=
+shop/index.php?cPath=
+modules.php?bookid=
+view/7/9628/1.html?reply=
+product_details.php?prodid=
+catalog/product.php?pid=
+rating.php?id=
+?page=
+catalog/main.php?cat_id=
+index.php?page=
+detail.php?prodid=
+products/product.php?pid=
+news.php?id=
+book_detail.php?BookID=
+catalog/main.php?cat_id=
+catalog/main.php?cat_id=
+default.php?cPath=
+catalog/main.php?cat_id=
+catalog/main.php?cat_id=
+category.php?catid=
+categories.php?cat=
+categories.php?cat=
+detail.php?prodID=
+detail.php?id=
+category.php?id=
+hm/inside.php?id=
+sub*.php?middle=
+show.php?modo=
+index1.php?pagina=
+head.php?left=
+enter.php?phpbb_root_path=
+show.php?z=
+start.php?basepath=
+blank.php?strona=
+template.php?y=
+page.php?where=
+iniziativa.php?in=
+curriculum.php?id=
+index1.php?my=
+php?for=”
+.php?form=”
+.php?formatword=”
+.php?funcao=”
+.php?function=”
+.php?g=”
+.php?get=”
+.php?go=”
+.php?gorumDir=”
+.php?goto=”
+.php?h=”
+.php?headline=”
+.php?i=”
+.php?inc=”
+.php?include=”
+.php?includedir=”
+.php?inter=”
+.php?itemid=”
+.php?j=”
+.php?join=”
+.php?jojo=”
+.php?l=”
+.php?lan=”
+.php?lang=”
+.php?link=”
+.php?load=”
+.php?loc=”
+.php?m=”
+.php?main=”
+.php?meio.php=”
+.php?meio=”
+.php?menu=”
+.php?menuID=”
+.php?mep=”
+.php?month=”
+.php?mostra=”
+.php?n=”
+.php?name=”
+.php?nav=”
+.php?new=”
+.php?news=”
+.php?next=”
+.php?nextpage=”
+.php?o=”
+.php?op=”
+.php?open=”
+.php?option=”
+.php?origem=”
+.php?Page_ID=”
+.php?pageurl=”
+.php?para=”
+.php?part=”
+.php?pg=”
+.php?pid=”
+.php?place=”
+.php?play=”
+.php?plugin=”
+.php?pm_path=”
+.php?pollname=”
+.php?post=”
+.php?pr=”
+.php?prefix=”
+.php?prefixo=”
+.php?q=”
+.php?redirect=”
+.php?ref=”
+.php?refid=”
+.php?regionId=”
+.php?release_id=”
+.php?release=”
+.php?return=”
+.php?root=”
+.php?S=”
+.php?searchcode_id=”
+.php?sec=”
+.php?secao=”
+.php?sect=”
+.php?sel=”
+.php?server=”
+.php?servico=”
+.php?sg=”
+.php?shard=”
+.php?show=”
+.php?sid=”
+.php?site=”
+.php?sourcedir=”
+.php?start=”
+.php?storyid=”
+.php?str=”
+.php?subject=”
+.php?sufixo=”
+.php?systempath=”
+.php?t=”
+.php?task=”
+.php?teste=”
+.php?theme_dir=”
+.php?thread_id=”
+.php?tid=”
+.php?title=”
+.php?to=”
+.php?topic_id=”
+.php?type=”
+.php?u=”
+.php?url=”
+.php?urlFrom=”
+.php?v=”
+.php?var=”
+.php?vi=”
+.php?view=”
+inurl:view_product.php?id=
+inurl:newsone.php?id=
+inurl:sw_comment.php?id=
+inurl:news.php?id=
+inurl:avd_start.php?avd=
+inurl:event.php?id=
+inurlroduct-item.php?id=
+inurl:sql.php?id=
+inurl:news_view.php?id=
+inurl:select_biblio.php?id=
+inurl:humor.php?id=
+inurl:aboutbook.php?id=
+inurl:fiche_spectacle.php?id=
+inurl:communique_detail.php?id=
+inurl:sem.php3?id=
+inurl:kategorie.php4?id=
+inurl:news.php?id=
+inurl:index.php?id=
+inurl:faq2.php?id=
+inurl:show_an.php?id=
+inurl:review.php?id=
+inurl:loadpsb.php?id=
+inurlinions.php?id=
+inurl:spr.php?id=
+inurl:ages.php?id=
+inurl:announce.php?id=
+
+</p></code></pre>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <footer class="pb-1 pt-4 text-center text-white">
+      <p class="ftrt">Copyright © 2021 <a href="https://github.com/wahyunaa" class="zj">Wahyuna</a>. All right reserved.</p>
+    </footer>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p" crossorigin="anonymous"></script>
+  </body>
+</html>

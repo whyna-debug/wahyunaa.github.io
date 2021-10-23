@@ -1,0 +1,22 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto+Condensed:ital@1&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Noto+Sans+Display:ital,wght@1,300&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Signika+Negative&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Noto+Sans:ital,wght@1,700&display=swap");
+/*content*/
+
+body {
+  padding-top: 65px;
+  background-color: #00dd12;
+}
+.top-text {
+  font-family: Roboto Condensed;
+}
+.mgg {
+  color: rgb(46, 46, 46);
+  font-style: Noto Sans;
+}
+.bottom {
+  margin-top: 120px;
+  font-family: Signika Negative;
+  color: #ff252525;
+}

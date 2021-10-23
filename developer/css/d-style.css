@@ -1,0 +1,188 @@
+/*fonts*/
+@import url("https://fonts.googleapis.com/css2?family=Patua+One&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Patrick+Hand&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Caveat&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Fira+Sans+Condensed:wght@300&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@400;600;700&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Gluten:wght@200&display=swap");
+/*Akhir fonts*/
+.jumbotron {
+  padding-top: 7rem;
+}
+.navx {
+  font-size: 17px;
+  padding-top: 5px;
+  padding-bottom: 5px;
+  color: white;
+  margin: 40px 6px 40px 20px;
+  text-decoration: none;
+}
+.navx:hover {
+  color: #ffcef2;
+}
+.work-j {
+  margin-top: 45px;
+  margin-bottom: 0px;
+}
+.played {
+  padding: 5px 5px 5px 5px;
+}
+.bottom-b {
+  text-decoration: none;
+}
+.img {
+  margin-top: 0px;
+  margin-left: 40px;
+  background-color: rgb(255, 234, 246);
+}
+.profile {
+  margin-top: 60px;
+  padding-left: 5px;
+}
+.wahyuna {
+  color: rgb(255, 0, 170);
+  font-size: 8vmin;
+  font-family: Poppins;
+}
+.top {
+  color: rgb(59, 59, 59);
+  font-size: 8vmin;
+  font-family: Poppins;
+  margin-top: 9px;
+}
+.display-4 {
+  font-family: Poppins;
+  color: rgb(92, 92, 92);
+  font-size: 60px;
+}
+.lead {
+  font-family: Gluten;
+  color: rgb(85, 85, 85);
+}
+.about-b {
+  margin-top: 16px;
+  font-size: 21px;
+  color: #2c2c2c;
+}
+
+h2 {
+  color: rgb(255, 0, 170);
+}
+.kccb {
+  padding-top: 20px;
+}
+.title-bbbb {
+  margin-top: 20px;
+}
+#about {
+  margin-top: 0px;
+  padding-top: 0px;
+  padding-bottom: 115px;
+  background-color: #ffffff;
+}
+.about {
+  padding-right: 40px;
+  padding-left: 40px;
+  padding-top: 9px;
+}
+#hobby {
+  padding-top: 20px;
+  background-color: #ffffff;
+}
+#contact {
+  padding-top: 20px;
+  background-color: #ffffff;
+  padding-left: 20px;
+  padding-right: 20px;
+}
+.contact-contact {
+  border: solid 1px rgb(255, 0, 170);
+  background-color: rgb(255, 0, 170);
+  border-radius: 4px;
+  margin-left: 9px;
+  margin-top: 10px;
+  color: white;
+  height: 40px;
+  width: 120px;
+  box-shadow: 0px 1px 1px 0px rgb(119, 119, 119);
+}
+.about-about {
+  border: solid 2px rgb(255, 0, 170);
+  background-color: rgb(255, 255, 255);
+  border-radius: 4px;
+  margin-top: 10px;
+  margin-left: 9px;
+  color: rgb(255, 0, 170);
+  height: 40px;
+  width: 120px;
+  box-shadow: 0px 1px 1px 0px rgb(119, 119, 119);
+}
+.contact-contact:hover {
+  background-color: rgb(255, 35, 182);
+}
+.about-about:hover {
+  background-color: rgb(255, 220, 244);
+}
+.lbl {
+  margin-top: 10px;
+  color: black;
+}
+.card-b {
+  color: rgb(255, 0, 170);
+}
+.work {
+  margin-top: 55px;
+}
+#work {
+  margin-bottom: 225px;
+}
+.card-g {
+  padding-top: 30px;
+}
+.ftr {
+  color: rgb(255, 255, 255);
+  text-decoration: none;
+}
+footer {
+  margin-top: 35px;
+  background-color: rgb(255, 0, 170);
+}
+.ftr:hover {
+  color: white;
+  font-size: 13px;
+}
+.ftrt {
+  font-size: 13px;
+}
+.image-n {
+  margin-top: 10px;
+}
+.send {
+  margin-top: 9px;
+  background-color: rgb(255, 0, 170);
+  color: #ffffff;
+  height: 40px;
+  width: 120px;
+  border: solid 1px rgb(255, 0, 170);
+  border-radius: 4px;
+  box-shadow: 0px 1px 1px 0px rgb(77, 77, 77);
+}
+.send:hover {
+  background-color: rgb(255, 22, 177);
+}
+.card {
+  background-color: rgb(248, 226, 243);
+}
+.card:hover {
+  background-color: rgb(255, 164, 234);
+}
+.pgc {
+  font-family: Patua One;
+}
+.text-text {
+  border: solid 1px;
+  border-color: rgb(26, 26, 26);
+}
+.text-r {
+  padding: 5px 10px 5px 10px;
+}
